@@ -11,7 +11,7 @@ const AccordionItem = ({ title, content }) => {
         transition={{ layout: { duration: 1, type: "spring", bounce: 0.3 } }}
       >
         <div
-          className="accordion-title p-1 flex justify-between cursor-pointer w-full text-[20px] font-semibold"
+          className="accordion-title p-2 flex justify-between cursor-pointer w-full text-[20px] font-semibold"
           onClick={() => setIsActive(!isActive)}
         >
           <motion.div
