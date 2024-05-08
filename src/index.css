@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply text-white/90 bg-[#1C1C1C] hover:bg-[#4E4E4E] transition-all duration-300 font-normal py-3 px-7 rounded-full;
+  }
+}
