@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import ArrowRight from "../icons/ArrowRight";
 let data = [
   "Enhance fortune 50 company's insights teams research capabilities",
   "at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu",
@@ -50,6 +51,11 @@ function Carousel() {
               index == 2 ? "bg-[#2DA950]" : "bg-[#E4E3E3]"
             } rounded-full hover:bg-[#CAD0CB]`}
           ></div>
+        </div>
+        <div className="mt-12">
+            <button className="btn-primary px-10 py-6"><h1 className="flex gap-3 items-center">
+                Explore More <span> <ArrowRight /> </span>
+            </h1></button>
         </div>
       </div>
     </AnimatePresence>
