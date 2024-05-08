@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Accordion and Carousel were made from scratch.
 
 ## Available Scripts
-
+Fork this repository or download it as ZIP and open it on your machine.
 In the project directory, you can run:
 
 ### `npm start`
